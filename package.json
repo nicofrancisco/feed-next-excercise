@@ -1,0 +1,41 @@
+{
+  "name": "feed-faceit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "next lint",
+    "cy:open": "cypress open",
+    "test": "vitest"
+  },
+  "type": "module",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.5",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-redux": "^9.1.2",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^16.0.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^4.3.1",
+    "cypress": "^13.11.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "jsdom": "^24.1.0",
+    "postcss": "^8",
+    "redux-mock-store": "^1.5.4",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "vitest": "^1.6.0"
+  }
+}

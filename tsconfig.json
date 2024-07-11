@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "server.js",
+    "setupTests.ts",
+    "socket.js", "app/ui/feed/feed.test", "app/lib/utils/isNewPost.test", "app/lib/utils/isEmptyObject.test", "app/lib/utils/getTimeStamp.test", "app/lib/utils/generateRandomId.test"],
+  "exclude": [
+    "node_modules",
+    "cypress.config.ts"
+  ]
+}

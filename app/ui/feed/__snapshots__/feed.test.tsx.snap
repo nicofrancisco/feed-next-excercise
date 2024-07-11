@@ -1,0 +1,254 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Feed Component > renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="grid grid-rows-12 h-screen animate-fadeInUp flex-col"
+  >
+    <ul
+      class="py-5 row-start-2 row-span-10 overflow-y-auto sm:row-start-1 sm:row-span-11"
+      role="list"
+    >
+      <div
+        data-testid="post-preview"
+      >
+        <a
+          aria-label="Read post: "Test Post 1" by Test User 1"
+          class=" px-5 py-2 flex justify-between hover:bg-gray-100 sm:px-7"
+          href="/post?id=1"
+        >
+          <article
+            class=" flex space-x-4"
+          >
+            <div
+              class=" flex space-x-4"
+            >
+              <div
+                class="min-w-min flex flex-col items-center row-start-1 row-end-7 col-start-1 col-end-3"
+              >
+                <img
+                  alt="user-avatar"
+                  class="min-h-14 min-w-14 flex-none rounded-full bg-gray-50"
+                  loading="lazy"
+                  src="https://api.dicebear.com/8.x/adventurer/svg?seed=Test User 1"
+                />
+                <div
+                  class="grow border-l-4 border-slate-200 min-h-5 w-0 mt-2"
+                />
+              </div>
+              <div
+                class="flex flex-col"
+              >
+                <div
+                  class="h-16 flex flex-col justify-center"
+                >
+                  <span
+                    class="font-bold text-lg"
+                  >
+                    Test User 1
+                  </span>
+                  <time
+                    class="text-xs leading-5 text-gray-500"
+                  >
+                    Old record
+                  </time>
+                </div>
+                <h2
+                  class="text-md font-semibold leading-6 text-gray-700 capitalize"
+                >
+                  Test Post 1
+                </h2>
+                <p
+                  class="mt-2 line-clamp-3 max-h-32 text-wrap overflow-y-hidden text-ellipsis overflow-hidden text-sm leading-6 text-gray-800"
+                >
+                  This is the body of test post 1
+                </p>
+              </div>
+            </div>
+          </article>
+        </a>
+      </div>
+      <div
+        data-testid="post-preview"
+      >
+        <a
+          aria-label="Read post: "Test Post 2" by Test User 2"
+          class=" px-5 py-2 flex justify-between hover:bg-gray-100 sm:px-7"
+          href="/post?id=2"
+        >
+          <article
+            class=" flex space-x-4"
+          >
+            <div
+              class=" flex space-x-4"
+            >
+              <div
+                class="min-w-min flex flex-col items-center row-start-1 row-end-7 col-start-1 col-end-3"
+              >
+                <img
+                  alt="user-avatar"
+                  class="min-h-14 min-w-14 flex-none rounded-full bg-gray-50"
+                  loading="lazy"
+                  src="https://api.dicebear.com/8.x/adventurer/svg?seed=Test User 2"
+                />
+                <div
+                  class="grow border-l-4 border-slate-200 min-h-5 w-0 mt-2"
+                />
+              </div>
+              <div
+                class="flex flex-col"
+              >
+                <div
+                  class="h-16 flex flex-col justify-center"
+                >
+                  <span
+                    class="font-bold text-lg"
+                  >
+                    Test User 2
+                  </span>
+                  <time
+                    class="text-xs leading-5 text-gray-500"
+                  >
+                    Old record
+                  </time>
+                </div>
+                <h2
+                  class="text-md font-semibold leading-6 text-gray-700 capitalize"
+                >
+                  Test Post 2
+                </h2>
+                <p
+                  class="mt-2 line-clamp-3 max-h-32 text-wrap overflow-y-hidden text-ellipsis overflow-hidden text-sm leading-6 text-gray-800"
+                >
+                  This is the body of test post 2
+                </p>
+              </div>
+            </div>
+          </article>
+        </a>
+      </div>
+      <div
+        data-testid="post-preview"
+      >
+        <a
+          aria-label="Read post: "Test Post 1" by Test User 1"
+          class=" px-5 py-2 flex justify-between hover:bg-gray-100 sm:px-7"
+          href="/post?id=1"
+        >
+          <article
+            class=" flex space-x-4"
+          >
+            <div
+              class=" flex space-x-4"
+            >
+              <div
+                class="min-w-min flex flex-col items-center row-start-1 row-end-7 col-start-1 col-end-3"
+              >
+                <img
+                  alt="user-avatar"
+                  class="min-h-14 min-w-14 flex-none rounded-full bg-gray-50"
+                  loading="lazy"
+                  src="https://api.dicebear.com/8.x/adventurer/svg?seed=Test User 1"
+                />
+                <div
+                  class="grow border-l-4 border-slate-200 min-h-5 w-0 mt-2"
+                />
+              </div>
+              <div
+                class="flex flex-col"
+              >
+                <div
+                  class="h-16 flex flex-col justify-center"
+                >
+                  <span
+                    class="font-bold text-lg"
+                  >
+                    Test User 1
+                  </span>
+                  <time
+                    class="text-xs leading-5 text-gray-500"
+                  >
+                    Old record
+                  </time>
+                </div>
+                <h2
+                  class="text-md font-semibold leading-6 text-gray-700 capitalize"
+                >
+                  Test Post 1
+                </h2>
+                <p
+                  class="mt-2 line-clamp-3 max-h-32 text-wrap overflow-y-hidden text-ellipsis overflow-hidden text-sm leading-6 text-gray-800"
+                >
+                  This is the body of test post 1
+                </p>
+              </div>
+            </div>
+          </article>
+        </a>
+      </div>
+      <div
+        data-testid="post-preview"
+      >
+        <a
+          aria-label="Read post: "Test Post 2" by Test User 2"
+          class=" px-5 py-2 flex justify-between hover:bg-gray-100 sm:px-7"
+          href="/post?id=2"
+        >
+          <article
+            class=" flex space-x-4"
+          >
+            <div
+              class=" flex space-x-4"
+            >
+              <div
+                class="min-w-min flex flex-col items-center row-start-1 row-end-7 col-start-1 col-end-3"
+              >
+                <img
+                  alt="user-avatar"
+                  class="min-h-14 min-w-14 flex-none rounded-full bg-gray-50"
+                  loading="lazy"
+                  src="https://api.dicebear.com/8.x/adventurer/svg?seed=Test User 2"
+                />
+                <div
+                  class="grow border-l-4 border-slate-200 min-h-5 w-0 mt-2"
+                />
+              </div>
+              <div
+                class="flex flex-col"
+              >
+                <div
+                  class="h-16 flex flex-col justify-center"
+                >
+                  <span
+                    class="font-bold text-lg"
+                  >
+                    Test User 2
+                  </span>
+                  <time
+                    class="text-xs leading-5 text-gray-500"
+                  >
+                    Old record
+                  </time>
+                </div>
+                <h2
+                  class="text-md font-semibold leading-6 text-gray-700 capitalize"
+                >
+                  Test Post 2
+                </h2>
+                <p
+                  class="mt-2 line-clamp-3 max-h-32 text-wrap overflow-y-hidden text-ellipsis overflow-hidden text-sm leading-6 text-gray-800"
+                >
+                  This is the body of test post 2
+                </p>
+              </div>
+            </div>
+          </article>
+        </a>
+      </div>
+      <div
+        class="flex justify-center mt-2"
+      />
+    </ul>
+  </div>
+</DocumentFragment>
+`;
